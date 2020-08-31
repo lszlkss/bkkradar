@@ -20,7 +20,7 @@ enable_smart_app_banner                   : true                                
 
 # Information About Yourself
 your_name                                 : László Kiss                                
-your_link                                 : https://laszlokiss.dev                     
+your_link                                 : https://lszlkss.github.io/                     
 your_city                                 : Budapest                                
 email_address                             : bkkradar.app@gmail.com
 facebook_username                         :                                           
@@ -34,7 +34,7 @@ youtube_username                          :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : iPhone Supprt
+  - title                                 : iPhone Support
     description                           : Check BKK departures from your iPhone.
     fontawesome_icon_name                 : mobile
 
