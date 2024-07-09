@@ -1,92 +1,87 @@
 #page title
-page_title                                : BKK Radar                                          # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title: BKK Radar # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
-ios_app_id                                : 1496436382                               # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+ios_app_id: 1496436382 # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
 
-appstore_link                             : https://apps.apple.com/hu/app/bkk-radar/id1496436382                                          # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
-playstore_link                            :                                           # Enter Google Play Store URL.
-presskit_download_link                    :                                           # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
-                                                                                      # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
+appstore_link: https://apps.apple.com/hu/app/bkk-radar/id1496436382 # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
+playstore_link: # Enter Google Play Store URL.
+presskit_download_link: # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file).
+  # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
-app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  : BKK Radar                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : BKK Radar allows you to check public transportation departures from your iPhone and Apple Watch. With its simple user interface, punctuality, you can be certain you will never ever be late  again.
+app_icon: # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_name: BKK Radar # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_price: # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_description: BKK Radar allows you to check public transportation departures on your iPhone. With its simple user interface, punctuality, you can be certain you will never ever be late  again.
 
-enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
-
-
+enable_smart_app_banner: true # Set to true to show a smart app banner at top of page on mobile devices.
 
 # Information About Yourself
-your_name                                 : László Kiss                                
-your_link                                 : https://lszlkss.github.io/                     
-your_city                                 : Budapest                                
-email_address                             : bkkradar.app@gmail.com
-facebook_username                         :                                           
-instagram_username                        : 
-twitter_username                          : 
-github_username                           : lszlkss
-youtube_username                          :
-
-
+your_name: László Kiss
+your_link: https://lszlkss.github.io/
+your_city: Budapest
+email_address: bkkradar.app@gmail.com
+facebook_username:
+instagram_username:
+twitter_username:
+github_username: lszlkss
+youtube_username:
 
 # Feature List                            Edit, add or remove features to be presented.
-features                                  :
+features:
+  - title: Find Departures
+    description: Find public transportation departures anywhere you are.
+    fontawesome_icon_name: mobile
 
-  - title                                 : Easy to Use
-    description                           : Check public transportation departures from the comfort of your iPhone.
-    fontawesome_icon_name                 : mobile
+  - title: Check Detailed Schedule
+    description: Keep track of your arrival as well.
+    fontawesome_icon_name: list
 
-  - title                                 : Apple Watch Support
-    description                           : Available on Apple Watch as well. Just glance at your wrist to see what's nearby.
-    fontawesome_icon_name                 : clock
+  - title: Show Route Disruptions
+    description: Route disruptions are displayed when something goes wrong.
+    fontawesome_icon_name: exclamation-circle
 
-  - title                                 : Manage Favourites
-    description                           : Add or remove routes to/from your favourites list. This information is shared across your iPhone and Apple Watch.
-    fontawesome_icon_name                 : star
+  - title: Bubi
+    description: Prefer cycling? The app also displays bicycles that can be rented in your area.
+    fontawesome_icon_name: bicycle
+
+  - title: Manage Favorites
+    description: Add or remove routes to / from your favorites list.
+    fontawesome_icon_name: heart
+
+  - title: Available in Multiple Languages
+    description: The app is available in Hungarian, English, Ukrainian and Russian.
+    fontawesome_icon_name: flag
 
 # Theme Settings
-topbar_color                              : "#000000"
-topbar_transparency                       : 0.1
-topbar_title_color                        : "#ffffff"
+topbar_color: "#000000"
+topbar_transparency: 0.1
+topbar_title_color: "#ffffff"
 
-cover_image                               : assets/headerimage.png                    # Replace with alternative image path or image URL.
-cover_overlay_color                       : "#363b3d"
-cover_overlay_transparency                : 0.8
+cover_image: assets/headerimage.png # Replace with alternative image path or image URL.
+cover_overlay_color: "#363b3d"
+cover_overlay_transparency: 0.8
 
-device_color                              : blue                                     # Set to: blue, black, yellow, coral or white.
+device_color: blue # Set to: blue, black, yellow, coral or white.
 
-body_background_color                     : "#ffffff"
+body_background_color: "#ffffff"
 
-link_color                                : "#1d63ea"
+link_color: "#1d63ea"
 
-app_title_color                           : "#ffffff"
-app_price_color                           : "#ffffff"
-app_description_color                     : "#ffffff"
+app_title_color: "#ffffff"
+app_price_color: "#ffffff"
+app_description_color: "#ffffff"
 
-feature_title_color                       : "#000000"
-feature_text_color                        : "#666666"
+feature_title_color: "#000000"
+feature_text_color: "#666666"
 
-feature_icons_foreground_color            : "#1d63ea"
-feature_icons_background_color            : "#e6e6e6"
+feature_icons_foreground_color: "#1d63ea"
+feature_icons_background_color: "#e6e6e6"
 
-social_icons_foreground_color             : "#666666"
-social_icons_background_color             : "#e6e6e6"
+social_icons_foreground_color: "#666666"
+social_icons_background_color: "#e6e6e6"
 
-footer_text_color                         : "#666666"
-
-
-
-
-
-
-
-
-
-
-
-
+footer_text_color: "#666666"
 
 ####################################################
 ### Jekyll Configuration. No need to touch this. ###
